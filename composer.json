@@ -21,5 +21,12 @@
             "name": "Ondřej Ešler",
             "email": "ondrej.esler@intraworlds.com"
         }
-    ]
+    ],
+    "scripts": {
+        "test": [
+            "vendor/bin/phpunit",
+            "vendor/bin/phpcs",
+            "vendor/bin/phpstan analyze"
+        ]
+    }
 }
